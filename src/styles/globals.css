@@ -1,26 +1,49 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Enable class-based dark mode (only if Tailwind v4) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+.border-gradient {
+    position: relative;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.border-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    padding: 2px;
+    pointer-events: none;
+    background: linear-gradient(45deg, #c2410c, #6d28d9, #4338ca);
+
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.box {
+  position: relative;
+  margin: 25px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 12px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.box::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #c2410c, #6d28d9, #4338ca);
+  transform: translate3d(0px, 30px, 10px) scale(0.75);
+  filter: blur(50px);
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  border-radius: inherit;
+}
+
+.box:hover::before {
+  transform: translate3d(0px, 30px, 0) scale(0.9);
 }

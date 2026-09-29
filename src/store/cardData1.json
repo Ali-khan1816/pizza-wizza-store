@@ -1,0 +1,130 @@
+
+[
+  {
+   
+    "name": "MARGHERITA",
+    "category": "Pizza",
+    "foodType": "Veg",
+    "price": { "regular": "500", "medium": "900", "large": "1100" },
+    "description": "A hugely popular margherita, with a deliciously tangy single cheese topping",
+    "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TUFSR0hFUklUQXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+
+  {
+    
+    "name": "CHICKEN DOMINATOR",
+    "category": "Pizza",
+    "foodType": "Non-Veg",
+    "price": { "regular": "450", "medium": "850", "large": "1050" },
+    "description": "Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers",
+    "img": "https://images.unsplash.com/photo-1708075260187-5326f625b320?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
+  },
+  {
+    
+    "name": "NON VEG SUPREME",
+    "category": "Pizza",
+    "foodType": "Non-Veg",
+    "price": { "regular": "550", "medium": "960", "large": "1200" },
+    "description": "Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers",
+    "img": "https://images.unsplash.com/photo-1759283391598-83b0ceb0faef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D"
+  },
+  {
+    
+    "name": "CHICKEN PEPPERONI",
+    "category": "Pizza",
+    "foodType": "Non-Veg",
+    "price": { "regular": "400", "medium": "600", "large": "940" },
+    "description": "A classic American taste! Relish the delectable flavor of Chicken Pepperoni, topped with extra cheese",
+    "img": "https://images.unsplash.com/photo-1680405620826-83b0f0f61b28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8"
+  },
+  {
+    
+    "name": "CHICKEN SAUSAGE",
+    "category": "Pizza",
+    "foodType": "Non-Veg",
+    "price": { "regular": "600", "medium": "890", "large": "1020" },
+    "description": "Chicken Sausage & Cheese",
+    "img": "https://images.unsplash.com/photo-1716237387584-09741d76502b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMxfHx8ZW58MHx8fHx8"
+  },
+  {
+   
+    "name": "Pepper Barbecue",
+    "category": "Pizza",
+    "foodType": "Non-Veg",
+    "price": { "regular": "690", "medium": "950", "large": "1290" },
+    "description": "Pepper Barbecue Chicken | Onion",
+    "img": "https://images.unsplash.com/photo-1671106681075-5a7233268cbd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDc1fHx8ZW58MHx8fHx8"
+  },
+  {
+    
+    "name": "FARM HOUSE",
+    "category": "Pizza",
+    "foodType": "Veg",
+    "price": { "regular": "690", "medium": "920", "large": "1300" },
+    "description": "A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+    "img": "https://images.unsplash.com/photo-1663610561381-e70493d31c0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDg0fHx8ZW58MHx8fHx8"
+  },
+  {
+    
+    "name": "PEPPY PANEER",
+    "category": "Pizza",
+    "foodType": "Veg",
+    "price": { "regular": "780", "medium": "920", "large": "1460" },
+    "description": "Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!",
+    "img": "https://images.unsplash.com/photo-1716237388417-79bd08e7d27a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDk5fHx8ZW58MHx8fHx8"
+  },
+  {
+    
+    "name": "MEXICAN GREEN WAVE",
+    "category": "Pizza",
+    "foodType": "Veg",
+    "price": { "regular": "69", "medium": "159", "large": "219" },
+    "description": "A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.",
+    "img": "https://images.unsplash.com/photo-1716237386053-e7f2747d123d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyN3x8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    
+    "name": "VEGGIE PARADISE",
+    "category": "Pizza",
+    "foodType": "Veg",
+    "price": { "regular": "690", "medium": "985", "large": "1290" },
+    "description": "Goldern Corn, Black Olives, Capsicum & Red Paprika",
+    "img": "https://plus.unsplash.com/premium_photo-1673439304183-8840bd0dc1bf?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    
+    "name": "STUFFED GARLIC BREAD",
+    "category": "SIDES & BEVERAGES",
+    "foodType": "Veg",
+    "price": { "single": "140", "double": "280" },
+    "description": "Freshly Baked Garlic Bread stuffed with mozzarella cheese, sweet corns & tangy and spicy jalapeños",
+    "img": "https://plus.unsplash.com/premium_photo-1661454443043-36b5c6b66e62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMzfHx8ZW58MHx8fHx8"
+  },
+  {
+    
+    "name": "TACO MEXICANA VEG",
+    "category": "SIDES & BEVERAGES",
+    "foodType": "Veg",
+    "price": { "single": "50", "double": "100" },
+    "description": "A crispy flaky wrap filled with Mexican Arancini Bean Patty rolled over a creamy Harissa Sauce.",
+    "img": "https://plus.unsplash.com/premium_photo-1677607238152-03ceaeaaeab8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8"
+  },
+  {
+    
+    "name": "TACO MEXICANA NON VEG",
+    "category": "SIDES & BEVERAGES",
+    "foodType": "Non-Veg",
+    "price": { "single": "70", "double": "140" },
+    "description": "A crispy flaky wrap filled with Hot and Smoky Chicken Patty rolled over a creamy Harissa Sauce.",
+    "img": "https://plus.unsplash.com/premium_photo-1664391674361-3a83b28e162e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D"
+  },
+  {
+    
+    "name": "GARLIC BREADSTICKS",
+    "category": "SIDES & BEVERAGES",
+    "foodType": "Veg",
+    "price": { "single": "240", "double": "480" },
+    "description": "The endearing tang of garlic in breadstics baked to perfection.",
+    "img": "https://plus.unsplash.com/premium_photo-1664392087859-815b337c3324?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D"
+  }
+]
